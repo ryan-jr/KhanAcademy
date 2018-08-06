@@ -5,3 +5,30 @@
 
 ### Probability without equally likely events
 
+- P(A)  = # of events that satisfy A / # of equally likely events (e.g. a coin flip or a dice roll)
+ - For an unfair coin P(H) = 60% which means that the P(H) = 100% - P(H)
+ - P(H(1), H(2)) = P(H1) * P(H(2))
+  => 0.6 * 0.6 = 0.36
+  - The above means that there is a 36% chance that we would get heads both times
+
+ - P(T(1), H(2), T(3))
+  - P(T(1)) * P(H2) * P(T(3))
+  => 0.4 * 0.6 * 0.4
+  - 0.24 * 0.4
+  - 0.096 = 9.6% chance of the above
+
+
+### Independent events example: Test taking
+ - On a multiple choice test, problem 1 has 4 choices, problem 2 has 3 choices.  Each problem has only 1 correct answer.  What is the probability of randomly guessing the correct answer to both problems.  
+  
+  - As the above are independent events it looks like P(Q(1)) and P(Q(2)) which means that getting the correct answer on both of these is going to be the product of both of them
+  - P(Q(1)) = 1 / 4
+  - P(Q(2)) = 1 / 3
+  - P(of getting Q(1) and Q(2) correct) == 1 / 4 * 1 / 3 = 1 / 12
+### Die rolling probability with independent events
+ - Find the probability of rolling even numbers 3 times, using a 6 sided die number from 1 to 6
+ - P(even number) = 3 / 6 => 1 / 2
+ - P(rolling even 3 times) = 1 / 2 * 1 / 2 * 1 / 2 => 1 / 83
+
+### Coin flipping probability
+ - 
